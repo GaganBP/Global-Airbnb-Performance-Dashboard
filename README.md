@@ -1,19 +1,25 @@
 # Global Airbnb Performance Dashboard
 
-A Power BI dashboard analyzing Airbnb listing and review data across major global cities — covering growth trends, market share, pricing, ratings, review behavior, and host trust signals.
+End-to-end Power BI dashboard on Global Airbnb Performance covering market share, pricing, ratings, review frequency, seasonality & host trust. Features color-coded visuals, bookmark toggles, Pareto charts & data-driven insights. 279K listings · 182K hosts · 5.37M reviews.
+
+---
+
+## 📊 View Dashboard
+
+🔗 [Click here to view the live dashboard](https://app.fabric.microsoft.com/view?r=eyJrIjoiYzgzY2NjOTktNzA2ZC00ZDQxLTlmNjUtZDgxZjIwZDU2NTJhIiwidCI6IjY3OWY5YTYyLTIwODQtNGI0Yy1iNzk2LWI1NGFkZTM5ZmUxYiJ9&pageName=55b3436c957a4eb960c2) 
 
 ---
 
 ## Dashboard Preview
 
-### Page 1 — New Listings Over Time
-![Page 1](assets/page1_growth.png)
+### Overview
+![Overview](Overview.png)
 
-### Page 2 — Market Share & Ratings
-![Page 2](assets/page2_market_ratings.png)
+### Ratings
+![Ratings](Ratings.png)
 
-### Page 3 — Review Frequency, Seasonality & Trust
-![Page 3](assets/page3_reviews_trust.png)
+### Reviews
+![Reviews](Reviews.png)
 
 ---
 
@@ -33,7 +39,7 @@ A Power BI dashboard analyzing Airbnb listing and review data across major globa
 
 ### Page 1 — New Listings Over Time
 
-Tracks Airbnb's listing growth from 2008 to 2021 across six lifecycle phases: Introduction, Growth, Maturity, Decline, Reinvention, and COVID-19. Broken down by room type: Entire place, Private room, Shared room, Hotel room.
+Tracks Airbnb's listing growth across six lifecycle phases: Introduction, Growth, Maturity, Decline, Reinvention, and COVID-19. Broken down by room type: Entire place, Private room, Shared room, Hotel room.
 
 **Key Insights:**
 - 2015 was the peak year for new listings
@@ -49,10 +55,6 @@ Tracks Airbnb's listing growth from 2008 to 2021 across six lifecycle phases: In
 **Market Share — Pareto Chart**
 Superhost vs non-Superhost listings by city with cumulative % line.
 
-**Key Insights:**
-- Paris, NYC, and Sydney account for nearly half of total listings and 59% of total reviews
-- Paris leads in both listings and reviews — hotel rooms there cost roughly twice the price of an Airbnb listing
-
 **Avg Price by Room Type:**
 
 | Room Type | Avg Price |
@@ -63,8 +65,7 @@ Superhost vs non-Superhost listings by city with cumulative % line.
 | Private room | $462 |
 
 **Ratings — Bookmark Toggle**
-
-Uses a Power BI bookmark to switch between two views triggered by clicking the icons in the "Select the detail level" panel:
+Uses a Power BI bookmark to switch between two views via the "Select the detail level" panel:
 - **Overall Rating** (star icon) — Bar chart of average rating per city
 - **Detailed Rating** (magnifying glass icon) — Table with per-city scores across Accuracy, Cleanliness, Communication, Location, and Value
 
@@ -82,6 +83,8 @@ Uses a Power BI bookmark to switch between two views triggered by clicking the i
 | Sydney | 9.5 | 9.2 | 9.7 | 9.7 | 9.3 |
 
 **Key Insights:**
+- Paris, NYC, and Sydney account for nearly half of total listings and 59% of total reviews
+- Paris leads in both listings and reviews — hotel rooms there cost roughly twice the price of an Airbnb listing
 - Mexico City and Rio de Janeiro are the highest-rated cities overall
 - Hong Kong (89.7) and Istanbul (91.1) are the lowest-rated
 - Cleanliness and Value consistently score the lowest across all cities
@@ -118,16 +121,17 @@ Monthly review share across Paris, Rome, New York, Mexico City, and Sydney.
 ## Files
 
 ```
-├── Air_BnB_Performance_dashboard.pbix          # Power BI report file
 ├── Global-Airbnb-Performance-Dashboard.pptx    # Presentation deck
-├── Air_BnB_Performance_dashboard.pdf           # PDF export of all pages
-├── assets/
-│   ├── air_bnb_logo.png
-│   ├── Color_Palette.png
-│   ├── Dotted_Line_rectangle.png
-│   ├── Magnifying_glass.png
-│   ├── SHIELD.png
-│   └── Star.webp
+├── Airbnb Performance dashboard.pdf            # PDF export of all pages
+├── Overview.png                                # Dashboard screenshot - Page 1
+├── Ratings.png                                 # Dashboard screenshot - Page 2
+├── Reviews.png                                 # Dashboard screenshot - Page 3
+├── air bnb logo.png
+├── Color Palette.png
+├── Dotted Line rectangle.png
+├── Magnifying glass.png
+├── SHIELD.PNG
+├── Star.webp
 └── README.md
 ```
 
@@ -138,14 +142,6 @@ Monthly review share across Paris, Rome, New York, Mexico City, and Sydney.
 - **Power BI Desktop** — Data modeling, DAX measures, report design
 - **Power Query** — Data transformation and shaping
 - **Bookmarks** — Toggle between Overall and Detailed rating views
-
----
-
-## How to Open
-
-1. Download `Air_BnB_Performance_dashboard.pbix`
-2. Open in Power BI Desktop
-3. If prompted, update the data source path to your local data files
 
 ---
 
