@@ -4,12 +4,6 @@ End-to-end Power BI dashboard on Global Airbnb Performance covering market share
 
 ---
 
-## 📊 View Dashboard
-
-🔗 [Click here to view the live dashboard](https://app.fabric.microsoft.com/view?r=eyJrIjoiYzgzY2NjOTktNzA2ZC00ZDQxLTlmNjUtZDgxZjIwZDU2NTJhIiwidCI6IjY3OWY5YTYyLTIwODQtNGI0Yy1iNzk2LWI1NGFkZTM5ZmUxYiJ9&pageName=55b3436c957a4eb960c2) 
-
----
-
 ## Dashboard Preview
 
 ### Overview
@@ -142,6 +136,16 @@ Monthly review share across Paris, Rome, New York, Mexico City, and Sydney.
 - **Power BI Desktop** — Data modeling, DAX measures, report design
 - **Power Query** — Data transformation and shaping
 - **Bookmarks** — Toggle between Overall and Detailed rating views
+
+---
+
+## 📊 View Dashboard
+
+🔗 [Click here to view the live dashboard](#) <!-- Replace # with your Power BI publish link -->
+
+## 📥 Download Dataset
+
+🔗 [Download Dataset from Maven Analytics](https://mavenanalytics.io/data-playground/airbnb-listings-reviews)
 
 ---
 
