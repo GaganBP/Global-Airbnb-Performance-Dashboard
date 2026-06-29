@@ -141,7 +141,7 @@ Monthly review share across Paris, Rome, New York, Mexico City, and Sydney.
 
 ## 📊 View Dashboard
 
-🔗 [Click here to view the live dashboard](#) <!-- Replace # with your Power BI publish link -->
+🔗 [Click here to view the live dashboard](https://app.fabric.microsoft.com/view?r=eyJrIjoiYzgzY2NjOTktNzA2ZC00ZDQxLTlmNjUtZDgxZjIwZDU2NTJhIiwidCI6IjY3OWY5YTYyLTIwODQtNGI0Yy1iNzk2LWI1NGFkZTM5ZmUxYiJ9&pageName=55b3436c957a4eb960c2) 
 
 ## 📥 Download Dataset
 
